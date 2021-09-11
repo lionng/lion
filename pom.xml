@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>top.zhangxiaofeng</groupId>
+    <artifactId>lion</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>lion</name>
+    <description>Sample Maven project (lion) for deploy test</description>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <!-- github start -->
+<!--    <distributionManagement>-->
+<!--&lt;!&ndash;        <repository>&ndash;&gt;-->
+<!--&lt;!&ndash;            <id>local-repo-release</id>&ndash;&gt;-->
+<!--&lt;!&ndash;            <name>GitHub Release</name>&ndash;&gt;-->
+<!--&lt;!&ndash;            <url>file://${project.basedir}/maven-repo</url>&ndash;&gt;-->
+<!--&lt;!&ndash;        </repository>&ndash;&gt;-->
+
+<!--        <repository>-->
+<!--            <id>github-release</id>-->
+<!--            <name>GitHub Release</name>-->
+<!--            <url>https://maven.pkg.github.com/lionng/lion</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
+
+    <!-- github end -->
+
+</project>
