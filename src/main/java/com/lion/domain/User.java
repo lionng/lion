@@ -6,12 +6,26 @@ package com.lion.domain;
  */
 public class User {
 
+    /**
+     * 用户名
+     */
     private String username;
+    /**
+     * 密码
+     */
     private String password;
 
+    /**
+     * 无参构造方法
+     */
     public User() {
     }
 
+    /**
+     * 有参构造方法
+     * @param username
+     * @param password
+     */
     public User(String username, String password) {
         this.username = username;
         this.password = password;
@@ -33,6 +47,10 @@ public class User {
         this.password = password;
     }
 
+    /**
+     * 重写toString方法
+     * @return
+     */
     @Override
     public String toString() {
         return "User{" +
